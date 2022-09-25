@@ -27,7 +27,7 @@ The RandomOverSampler algorithm was used to resample the data, this randomly sel
       - High Risk: 0.65 = 66%
       - Low Risk:  0.65 = 62%
 
-![imbclassreport1](Images/imbclassreport.png)
+![imbclassreport1](Images/imbclassreport1.png)
 
 **SMOTE Oversampling**
 With SMOTE, the size of the minority class is also increased, except it is done by interpolating new instances.
@@ -49,7 +49,7 @@ With SMOTE, the size of the minority class is also increased, except it is done 
 
 
 **Cluster Centroids Undersampling**
-ClusterCentroids works the opposite of oversampling in that it undersamples the majority class to match the minority class. This is done by identifying clusters of the majority and then synthetic clusters are generated.
+ClusterCentroids is opposite of oversampling in that it undersamples the majority class to match the minority class. This is done by identifying clusters of the majority and then synthetic clusters are generated.
 
 ![clustercentroids](Images/clustercentroids.png)
 
